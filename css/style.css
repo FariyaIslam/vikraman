@@ -65,6 +65,12 @@ a:hover {
     cursor: pointer;
 }
 
+.logo__text {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1;
+}
+
 nav ul {
     list-style: none;
 }
