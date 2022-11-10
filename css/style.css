@@ -186,6 +186,13 @@ nav ul li.active {
     color: #777777;
 }
 
+.page__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
 
 footer {
     background-color: rebeccapurple;
