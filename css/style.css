@@ -1,6 +1,7 @@
 /* Reset */
 body {
     overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -23,7 +24,6 @@ body {
 
 *::-webkit-scrollbar-thumb {
     background: rgb(229, 200, 11);
-
     border-radius: 20px;
 }
 
@@ -85,6 +85,7 @@ nav ul li.active {
 /* hero */
 .hero {
     width: 100vw;
+    min-height: 500px;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -162,16 +163,23 @@ nav ul li.active {
 
 .title {
     font-weight: 400;
-    font-size: 28px;
-    font: bold;
+    font-size: 28px !important;
     line-height: 36px;
 }
 
 .subtitle {
     font-weight: 400;
     font-size: 28px;
-
 }
+
+.para,
+.para:hover {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #777777;
+}
+
 
 footer {
     background-color: rebeccapurple;
